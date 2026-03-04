@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-google-maps-navigation": ["../src/index"],
+      "expo-google-maps-navigation/*": ["../src/*"]
+    }
+  }
+}
